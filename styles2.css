@@ -1,0 +1,96 @@
+
+body {
+    position: relative;
+    width: 1920px;
+    height: 900px;
+    background-color: #2C2C2C;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+}
+
+.text_container {
+    margin-top: 72px;
+    margin-left: 99.82px;
+}
+
+.main_text_h1 {
+
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90%; /* 50.4px */
+}
+
+.main_text_h4 {
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 44.791px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 90%; /* 40.312px */
+}
+
+.main_text_h4_2 {
+    margin-left: 200px;
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 44.791px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 90%; /* 40.312px */
+}
+
+.main_text_p {
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 37.4px */
+}
+
+.main_girl {
+    background-image: url(images/на\ главную\ 13.png); 
+    width: 435px;
+    height: 790.644px;
+    position: absolute; /* Используем абсолютное позиционирование */
+    top: 50%; /* Устанавливаем начальное вертикальное положение посередине */
+    left: 50%; /* Устанавливаем начальное горизонтальное положение посередине */
+    transform: translate(-50%, -50%); /* Центрируем элемент относительно его размеров */
+    animation: moveGirl 4s infinite alternate;
+}
+
+@keyframes moveGirl {
+    from {
+      top: calc(50% + 20px); /* Начальное вертикальное положение смещено на 20px от центра */
+      left: calc(50% + 20px); /* Начальное горизонтальное положение смещено на 20px от центра */
+    }
+    to {
+      top: calc(50% - 20px); /* Конечное вертикальное положение смещено на 20px от центра */
+      left: calc(50% - 20px); /* Конечное горизонтальное положение смещено на 20px от центра */
+    }
+  }
+
+
+
+.main_phone {
+    background-image: url(images/интерфейс\ 1.png);
+    width: 842.253px;
+    height: 867.45px;
+    margin-left: 500px;
+}
+
+.main_circle {
+    background-image: url(images/Group\ 799.svg);
+    width: 193.781px;
+    height: 61.139px;
+    margin-top: 800px;
+    margin-left: 110px;
+}

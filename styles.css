@@ -1,0 +1,110 @@
+body {
+    position: relative;
+    width: 1920px;
+    height: 900px;
+    background: #F3F3F3;
+}
+
+main {
+   
+    display: flex;
+    flex-direction: row;
+    gap: 36.29px;
+
+}
+
+.main_text_h1 {
+    width: 646.748px;
+    height: 218.631px;
+
+    color: #0B64FE;
+    font-family: 'Ubuntu';
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; /* 62px */
+}
+
+
+.main_text_p {
+    width: 500px;
+    height: 416px;
+
+    color: #181818;
+    font-family: 'Ubuntu';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 170%; /* 37.4px */
+}
+
+
+.main_image {
+    position: relative;
+    width: 975.792px;
+    height: 782.892px;
+}
+
+.main_image_button1 {
+    position: absolute;
+    top: 500.9px;
+    left: 290.1px;
+
+    width: 200.216px;
+    height: 200.216px;
+    background-color:  #A6FFFF;
+    border-radius: 50%;
+    border:none;
+    color: #000;
+    font-family: 'Ubuntu';
+    font-size: 40.194px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 170%; /* 68.33px */
+    z-index: 3;
+}
+
+.main_image_button2 {
+    position: absolute;
+    top: 500.9px;
+    left: 580.1px;
+
+    width: 200.216px;
+    height: 200.216px;
+    background-color:  #A6FFFF;
+    border-radius: 50%;
+    border:none;
+    color: #000;
+    font-family: 'Ubuntu';
+    font-size: 40.194px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 170%; /* 68.33px */
+    z-index: 3;
+}
+
+.main_image1 {
+    background-image: url(images/стол\ чел\ 1.png); 
+    margin-left: -200px;
+    transition: top 0.3s ease;
+    position: relative;
+
+
+    width: 1476.764px;
+    height: 984.702px;
+}
+
+.main_image2 {
+    background-image: url(images/стол\ чел\ 1-2.png); 
+    margin-left: -200px;
+    margin-top: -980px;
+
+
+    width: 1476.764px;
+    height: 984.702px;
+}
+
+
+
+
+
