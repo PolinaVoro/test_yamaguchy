@@ -60,21 +60,21 @@ body {
     background-image: url(images/на\ главную\ 13.png); 
     width: 435px;
     height: 790.644px;
-    position: absolute; /* Используем абсолютное позиционирование */
-    top: 50%; /* Устанавливаем начальное вертикальное положение посередине */
-    left: 50%; /* Устанавливаем начальное горизонтальное положение посередине */
-    transform: translate(-50%, -50%); /* Центрируем элемент относительно его размеров */
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
     animation: moveGirl 4s infinite alternate;
 }
 
 @keyframes moveGirl {
     from {
-      top: calc(50% + 20px); /* Начальное вертикальное положение смещено на 20px от центра */
-      left: calc(50% + 20px); /* Начальное горизонтальное положение смещено на 20px от центра */
+      top: calc(50% + 20px); 
+      left: calc(50% + 20px); 
     }
     to {
-      top: calc(50% - 20px); /* Конечное вертикальное положение смещено на 20px от центра */
-      left: calc(50% - 20px); /* Конечное горизонтальное положение смещено на 20px от центра */
+      top: calc(50% - 20px); 
+      left: calc(50% - 20px); 
     }
   }
 
